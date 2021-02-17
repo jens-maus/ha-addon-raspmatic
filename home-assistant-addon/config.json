@@ -99,24 +99,15 @@
   "full_access": true,
   "apparmor": false,
   "privileged": [
+    "DAC_READ_SEARCH",
+    "IPC_LOCK",
+    "NET_ADMIN",
     "SYS_ADMIN",
     "SYS_MODULE",
     "SYS_NICE",
+    "SYS_PTRACE",
     "SYS_RAWIO",
     "SYS_RESOURCE",
-    "SYSLOG",
-    "SYS_PTRACE",
-    "SYS_PACCT",
-    "PERFMON",
-    "NET_ADMIN",
-    "SETUID",
-    "SETPCAP",
-    "SETGID",
-    "SETFCAP",
-    "MKNOD",
-    "FSETID",
-    "FOWNER",
-    "DAC_OVERRIDE",
-    "CHOWN"
+    "SYS_TIME"
   ]
 }
