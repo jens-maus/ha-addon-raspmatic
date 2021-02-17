@@ -102,6 +102,21 @@
     "SYS_ADMIN",
     "SYS_MODULE",
     "SYS_NICE",
-    "SYS_RAWIO"
+    "SYS_RAWIO",
+    "SYS_RESOURCE",
+    "SYSLOG",
+    "SYS_PTRACE",
+    "SYS_PACCT",
+    "PERFMON",
+    "NET_ADMIN",
+    "SETUID",
+    "SETPCAP",
+    "SETGID",
+    "SETFCAP",
+    "MKNOD",
+    "FSETID",
+    "FOWNER",
+    "DAC_OVERRIDE",
+    "CHOWN"
   ]
 }
