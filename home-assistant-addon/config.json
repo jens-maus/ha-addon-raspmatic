@@ -97,9 +97,11 @@
     "HM_HAPROXY_SRC": "172.30.32.2/32"
   },
   "full_access": true,
+  "apparmor": false,
   "privileged": [
     "SYS_ADMIN",
     "SYS_MODULE",
-    "SYS_NICE"
+    "SYS_NICE",
+    "SYS_RAWIO"
   ]
 }
