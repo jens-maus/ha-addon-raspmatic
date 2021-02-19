@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: RaspberryMatic Documentation
+    url: https://github.com/jens-maus/RaspberryMatic/wiki/en.Home
+    about: If you search for answers, please consult the documentation area first.
