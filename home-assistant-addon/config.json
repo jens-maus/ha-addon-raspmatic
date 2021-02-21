@@ -30,6 +30,7 @@
   "uart": true,
   "gpio": true,
   "kernel_modules": true,
+  "realtime": true,
   "ports": {
     "22/tcp": null,
     "80/tcp": null,
