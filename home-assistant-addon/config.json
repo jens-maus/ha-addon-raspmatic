@@ -98,15 +98,10 @@
     "HM_HAPROXY_SRC": "172.30.32.2/32"
   },
   "privileged": [
-    "DAC_READ_SEARCH",
-    "IPC_LOCK",
-    "NET_ADMIN",
     "SYS_ADMIN",
     "SYS_MODULE",
     "SYS_NICE",
     "SYS_PTRACE",
-    "SYS_RAWIO",
-    "SYS_RESOURCE",
-    "SYS_TIME"
+    "SYS_RESOURCE"
   ]
 }
