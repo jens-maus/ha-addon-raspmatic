@@ -100,6 +100,7 @@
   "privileged": [
     "SYS_ADMIN",
     "SYS_MODULE",
-    "SYS_NICE"
+    "SYS_NICE",
+    "SYS_RAWIO"
   ]
 }
