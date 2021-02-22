@@ -19,12 +19,13 @@
   "init": false,
   "timeout": 120,
   "devices": [
-    "/dev/log",
     "/dev/raw-uart",
     "/dev/raw-uart1",
     "/dev/mmd_hmip",
     "/dev/mmd_bidcos",
-    "/dev/eq3loop"
+    "/dev/eq3loop",
+    "/dev/i2c-0",
+    "/dev/i2c-1"
   ],
   "udev": true,
   "uart": true,
@@ -98,8 +99,15 @@
     "HM_HAPROXY_SRC": "172.30.32.2/32"
   },
   "privileged": [
+    "DAC_READ_SEARCH",
+    "IPC_LOCK",
+    "NET_ADMIN",
     "SYS_ADMIN",
     "SYS_MODULE",
-    "SYS_NICE"
+    "SYS_NICE",
+    "SYS_PTRACE",
+    "SYS_RAWIO",
+    "SYS_RESOURCE",
+    "SYS_TIME"
   ]
 }
