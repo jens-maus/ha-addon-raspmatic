@@ -99,7 +99,7 @@
     "HM_HAPROXY_SRC": "172.30.32.2/32"
   },
   "apparmor": false,
-  "full-access": true,
+  "full_access": true,
   "privileged": [
     "DAC_READ_SEARCH",
     "IPC_LOCK",
