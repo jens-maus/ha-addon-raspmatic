@@ -100,8 +100,6 @@
   "privileged": [
     "SYS_ADMIN",
     "SYS_MODULE",
-    "SYS_NICE",
-    "SYS_PTRACE",
-    "SYS_RESOURCE"
+    "SYS_NICE"
   ]
 }
