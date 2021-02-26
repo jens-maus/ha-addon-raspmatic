@@ -1,6 +1,6 @@
 {
   "name": "RaspberryMatic CCU",
-  "version": "3.57.4.20210224-7f36c8e",
+  "version": "3.57.4.20210226-92dc60b",
   "stage": "experimental",
   "slug": "raspberrymatic",
   "image": "ghcr.io/jens-maus/raspberrymatic",
@@ -101,15 +101,11 @@
   },
   "full_access": true,
   "privileged": [
-    "DAC_READ_SEARCH",
     "IPC_LOCK",
-    "NET_ADMIN",
     "SYS_ADMIN",
     "SYS_MODULE",
     "SYS_NICE",
-    "SYS_PTRACE",
     "SYS_RAWIO",
-    "SYS_RESOURCE",
-    "SYS_TIME"
+    "SYS_RESOURCE"
   ]
 }
