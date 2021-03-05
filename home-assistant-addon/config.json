@@ -18,19 +18,7 @@
   ],
   "init": false,
   "timeout": 120,
-  "devices": [
-    "/dev/raw-uart",
-    "/dev/raw-uart1",
-    "/dev/mmd_hmip",
-    "/dev/mmd_bidcos",
-    "/dev/eq3loop",
-    "/dev/i2c-0",
-    "/dev/i2c-1",
-    "/dev/mem",
-    "/dev/log"
-  ],
   "udev": true,
-  "gpio": true,
   "kernel_modules": true,
   "realtime": true,
   "ports": {
@@ -99,17 +87,13 @@
     "HM_RUNNING_IN_HA": "1",
     "HM_HAPROXY_SRC": "172.30.32.2/32"
   },
-  "apparmor": false,
+  "full_access": true,
   "privileged": [
-    "DAC_READ_SEARCH",
     "IPC_LOCK",
-    "NET_ADMIN",
     "SYS_ADMIN",
     "SYS_MODULE",
     "SYS_NICE",
-    "SYS_PTRACE",
     "SYS_RAWIO",
-    "SYS_RESOURCE",
-    "SYS_TIME"
+    "SYS_RESOURCE"
   ]
 }
