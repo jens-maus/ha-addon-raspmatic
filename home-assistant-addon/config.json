@@ -16,7 +16,6 @@
     "config:rw",
     "ssl:ro"
   ],
-  "hassio_api": true,
   "init": false,
   "timeout": 120,
   "udev": true,
