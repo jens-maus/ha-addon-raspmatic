@@ -1,6 +1,6 @@
 {
   "name": "RaspberryMatic CCU (strict)",
-  "version": "3.57.4.20210326-97bd312",
+  "version": "3.57.4.20210327-97bd312",
   "stage": "experimental",
   "slug": "raspberrymatic-strict",
   "image": "ghcr.io/jens-maus/raspberrymatic",
@@ -25,11 +25,9 @@
     "/dev/mmd_bidcos",
     "/dev/eq3loop",
     "/dev/i2c-0",
-    "/dev/i2c-1",
-    "/dev/mem",
-    "/dev/zram0",
-    "/dev/log"
+    "/dev/i2c-1"
   ],
+  "uart": true,
   "udev": true,
   "gpio": true,
   "usb": true,
