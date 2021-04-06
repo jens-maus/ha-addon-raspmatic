@@ -18,10 +18,7 @@
   ],
   "init": false,
   "timeout": 120,
-  "uart": true,
   "udev": true,
-  "gpio": true,
-  "usb": true,
   "kernel_modules": true,
   "realtime": true,
   "ports": {
