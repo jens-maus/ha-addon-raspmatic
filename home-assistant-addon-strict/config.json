@@ -1,6 +1,6 @@
 {
   "name": "RaspberryMatic CCU (strict)",
-  "version": "3.57.4.20210329-85b13b6",
+  "version": "3.57.5.20210404-90012e1",
   "stage": "experimental",
   "slug": "raspberrymatic-strict",
   "image": "ghcr.io/jens-maus/raspberrymatic",
