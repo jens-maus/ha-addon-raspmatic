@@ -22,8 +22,8 @@ the WebUI and underlying operating system for an improved user experience.
 - Use your Home Assistant central as a full-fledged HomeMatic/homematicIP control center (CCU).
 - Access the CCU WebUI from your Home Assistant user interface.
 - Provides all features of a RaspberryMatic system within your Home Assistant environment.
-- Interconnect to HomeMatic/homematicIP devices using the standard, vendor-provided RF modules (RPI-RF-MOD, HM-MOD-RPI-PCB, HmIP-RFUSB, HM-CFG-USB-2, HM-CFG-LAN), Wired gateways (HmIPW-DRAP, HMW-LGW-O-DR-GS-EU) or LAN gateway solutions (HmIP-HAP, HM-LGW-O-TW-W-EU) – see [Requirements](https://github.com/jens-maus/RaspberryMatic/wiki/Einleitung#vorraussetzungen).
-- Supports additional open-hardware based USB/Ethernet adapter devices (HB-RF-USB, HB-RF-USB-2, HB-RF-ETH).
+- Interconnect to HomeMatic/homematicIP devices using the standard, vendor-provided RF modules (`RPI-RF-MOD`, `HM-MOD-RPI-PCB`, `HmIP-RFUSB`, `HM-CFG-USB-2`, `HM-CFG-LAN`), Wired gateways (`HmIPW-DRAP`, `HMW-LGW-O-DR-GS-EU`) or LAN gateway solutions (`HmIP-HAP`, `HM-LGW-O-TW-W-EU`) – see [Requirements](https://github.com/jens-maus/RaspberryMatic/wiki/Einleitung#vorraussetzungen).
+- Supports additional open-hardware based USB/Ethernet adapter devices (`HB-RF-USB`, `HB-RF-USB-2`, `HB-RF-ETH`).
 
 ## Documentation / Installation
 
