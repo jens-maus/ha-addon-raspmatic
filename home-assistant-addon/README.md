@@ -27,9 +27,8 @@ the WebUI and underlying operating system for an improved user experience.
 
 ## Documentation / Installation
 
-For a detailed documentation please refer either to the "Documentation" tab of the installed Add-on or
-consult the [online documentation](https://github.com/jens-maus/RaspberryMatic/wiki/Installation-HomeAssistant)
-available in the RaspberryMatic GitHub project.
+For a detailed documentation please refer to the "Documentation" tab of the installed Add-on or
+consult the [online documentation](https://github.com/jens-maus/RaspberryMatic/wiki/Installation-HomeAssistant) available in the RaspberryMatic GitHub project. Also note, that after having installed the Add-on you also have to setup the HomeMatic integration part in Home Assistant itself so that your Home Assistant is able to see and use the HomeMatic/homematicIP devices in your RaspberryMatic central.
 
 ## License
 
